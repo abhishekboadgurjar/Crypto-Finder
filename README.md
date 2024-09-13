@@ -71,6 +71,7 @@ To get started with the Crypto Finder app, follow these steps:
 You can view the live demo of the Crypto Finder app [here](https://crypto-finder-in.netlify.app).
 
 ## Screenshots
+
 ![Screenshot 2024-09-13 100113](https://github.com/user-attachments/assets/0a7d7eb3-3021-40e3-9e87-9c18a2aec27c)
 
 
