@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0099ff;
+  color: white;
+}
+
+/* Crypto Finder */
+
+.crypto-finder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.input-box {
+  margin-top: 30px;
+  border-radius: 20px;
+  width: 400px;
+  height: 40px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+.input-box input {
+  width: 290px;
+  height: 40px;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+}
+.input-box button {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: #0caaff;
+}
+.input-box button:hover {
+  background-color: #2783b5;
+}
+.cards {
+  margin: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.card {
+  overflow: hidden;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 10px;
+  border: 0.5px solid #0caaff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: scale 0.1s;
+}
+.card:hover {
+  scale: 1.05;
+}
+.card img {
+  margin-top: 15px;
+  width: 200px;
+  height: 200px;
+}
+.card h1 {
+  font-size: 28px;
+  overflow-wrap: break-word;
+}
+.card h4 {
+  font-size: 20px;
+}
+.card button {
+  font-size: 16px;
+  width: 300px;
+  height: 50px;
+  border: none;
+  background-color: #0caaff;
+  cursor: pointer;
+}
+.card button:hover {
+  background-color: #2783b5;
+}
+
+.loader-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+/* Crypto Details */
+.crypto-details {
+  margin-block: 40px;
+}
+.basic-details-image-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 130px;
+}
+.basic-details h1 {
+  font-size: 40px;
+}
+.basic-details h4 {
+  font-size: 22px;
+}
+.image-box img {
+  width: 300px;
+  height: 300px;
+}
+.detail-desc {
+  font-size: 20px;
+  margin-inline: 130px;
+}
+
+.market-and-additional {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 130px;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0099ff;
+  color: white;
+}
+
+/* Loader */
+
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  --_c: no-repeat radial-gradient(farthest-side, #0caaff 92%, #0000);
+  background: var(--_c) top, var(--_c) left, var(--_c) right, var(--_c) bottom;
+  background-size: 12px 12px;
+  animation: l7 1s infinite;
+}
+@keyframes l7 {
+  to {
+    transform: rotate(0.5turn);
+  }
+}
