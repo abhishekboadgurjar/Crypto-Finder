@@ -46,7 +46,7 @@ To get started with the Crypto Finder app, follow these steps:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/abhishekgurjar-in/Crypto-Finder
+   git clone https://github.com/abhishekboadgurjar/Crypto-Finder
    cd crypto-finder
    ```
 
@@ -87,4 +87,4 @@ Building the Crypto Finder app was a fun and educational experience. It demonstr
 - **Axios Documentation**: [Axios Docs](https://axios-http.com/docs/intro)
 
 ## Author
-**Abhishek Gurjar** is a dedicated web developer passionate about creating practical and functional web applications. Check out more of his projects on [GitHub](https://github.com/abhishekgurjar-in).
+**Abhishek Gurjar** is a dedicated web developer passionate about creating practical and functional web applications. Check out more of his projects on [GitHub](https://github.com/abhishekboadgurjar).
